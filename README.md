@@ -33,7 +33,7 @@ El método de validación cruzada da la impresión que  menor incertidumbre y da
 
 Preguntas
 
-### ¿Cuándo se alcanza la mejor precisión?  -
+### ¿Cuándo se alcanza la mejor precisión?  
 + Verificando  que  cada  uno  de  los  atributos,  aporten  la  información  necesaria  para obtener la clase correcta 
 + Escoger el mejor modelo probabilístico en base a pruebas experimentales 
 + Tratar  de  tener  un  conjunto  de  instancias  adecuado  y  la  para  el  training  de  modo  de evitar el overfitted  (sobreajustado).       
@@ -55,7 +55,7 @@ Se tiene un ligero sobreajuste,  ya que en el análisis realizado de las frases 
 Para nuestro caso en concreo no nos ayudan de gran forma ya que con atributos contunios disminuimos la presición en aproximadamente 1% aunque es un valor pequeño coma para considerarlo bueno o malo.
 
 ### Comparar los  diferentes  algoritmos  con su  conjunto  de  datos  y  determinar cuál de  ellos  es el que mejor.
-De las pruebas se concluye  que árbol de desiciones j48 es el mejor método ya que se obtiene una mejor presicion en la clasificación.
+De las pruebas se concluye  que KDD con IBK es el mejor método ya que se obtiene una mejor presicion en la clasificación.
 
 ### ¿Es  mejor  utilizar  validación  cruzada  (cross-validation)  o  un  test  dataset  para  realizar  la evaluación del clasificardor? ¿Por qué?   
 En base a los resultados obternidos con un test data set obtenemos una mayor presicion pero con validación cruzada tenemos un valor similar de acuary sin importar el numero de  folds,  en  cambio  en  la  de  test  dataset  los  resultados  están  detrminados  por  el porcentaje de división entre training y test. Por lo que se considera mejor cross-validation
