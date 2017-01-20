@@ -43,7 +43,7 @@ El método de validación cruzada da la impresión que  menor incertidumbre y da
 
 3.-Cambiar la ruta del archivo datos datosAleatorios.txt en el archivo transformacionAtributos.py en la linea archi = open("C:/Users/Casa/Desktop/datosAleatorios.txt","r")
 
-4.-Cambiar la ruta donde queremos que se guarde el archivo ARFF generado en  transformacionAtributos.py en la linea 
+4.-Cambiar la ruta donde queremos que se guarde el archivo ARFF generado en  transformacionAtributos.py en la linea archivo = open("C:/Users/Casa/Desktop/tarea-feelings-final.arff","wb")
 
 5.-Ejecutar  transformacionAtributos.py (Es necesario tener Python)
 
