@@ -33,24 +33,31 @@ El método de validación cruzada da la impresión que  menor incertidumbre y da
 
 Preguntas
 
-###¿Cuándo se alcanza la mejor precisión?  -
+### ¿Cuándo se alcanza la mejor precisión?  -
 + Verificando  que  cada  uno  de  los  atributos,  aporten  la  información  necesaria  para obtener la clase correcta 
 + Escoger el mejor modelo probabilístico en base a pruebas experimentales 
-+ Tratar  de  tener  un  conjunto  de  instancias  adecuado  y  la  para  el  training  de  modo  de evitar el overfitted  (sobreajustado).              
-###¿Es importante el número de atributos (features) en el clasificador?  
++ Tratar  de  tener  un  conjunto  de  instancias  adecuado  y  la  para  el  training  de  modo  de evitar el overfitted  (sobreajustado).       
+
+### ¿Es importante el número de atributos (features) en el clasificador?  
 En  base  a  un  mayor  número  de  atributos  podemos  abarcar  un  mayor  n  umero  de escenarios,  pero  se  debe  además  verificar  la  calidad  de  nuestros  atributos  puesto  que existen atributos que son superfluos.
-###¿Es importante el número de instancias?.  ¿En qué casos? 
-Con  un  mayor  número  de  instancias  tendríamos  una  mayor  cantidad  de  datos  y  esto permitiría mejorar la precisión de la clasificación.-Pero en ciertos casos una cantidad exagerada de instancias con atributos similarespodria producir que nuestro modelo aumente su overffite. -
-+ En Bayes injenuo generalmente es utilizado cuando se tiene gran cantidad de casos 
-###¿Es importante considerar diferentes pesos para cada atributo? ¿por qué? 
+
+### ¿Es importante el número de instancias?.  ¿En qué casos? 
++ Con  un  mayor  número  de  instancias  tendríamos  una  mayor  cantidad  de  datos  y  esto permitiría mejorar la precisión de la clasificación.-Pero en ciertos casos una cantidad exagerada de instancias con atributos similarespodria producir que nuestro modelo aumente su overffite. 
++ Bayes injenuo generalmente es utilizado cuando se tiene gran cantidad de datos
+
+### ¿Es importante considerar diferentes pesos para cada atributo? ¿por qué? 
 Si  porque  en  ocaciones  se  tiene  atributos  no  balanceados  de  modo que  forman  una jerarquía de influencia y los pesos nos permitirían implementar este detalle. -En nuestro poyecto los adjetivos que expresaban sentimientos asi como la negación son los mas influyentes en el proceso de clasificación.
-###¿Está su modelo sobreajustado “overfitted”?   
+
+### ¿Está su modelo sobreajustado “overfitted”?   
 Se tiene un ligero sobreajuste,  ya que en el análisis realizado de las frases neutras, estas  tienen  un  similar  conjunto  de  atributos,  lo  que  produce  un  aumento  de  instancias repetidas. 
-###¿Los atributos continuos son mejores o peores en el clasificador Naive Bayes?
+
+### ¿Los atributos continuos son mejores o peores en el clasificador Naive Bayes?
 Para nuestro caso en concreo no nos ayudan de gran forma ya que con atributos contunios disminuimos la presición en aproximadamente 1% aunque es un valor pequeño coma para considerarlo bueno o malo.
-###Comparar los  diferentes  algoritmos  con su  conjunto  de  datos  y  determinar cuál de  ellos  es el que mejor.
+
+### Comparar los  diferentes  algoritmos  con su  conjunto  de  datos  y  determinar cuál de  ellos  es el que mejor.
 De las pruebas se concluye  que árbol de desiciones j48 es el mejor método ya que se obtiene una mejor presicion en la clasificación.
-##¿Es  mejor  utilizar  validación  cruzada  (cross-validation)  o  un  test  dataset  para  realizar  la evaluación del clasificardor? ¿Por qué?   
+
+### ¿Es  mejor  utilizar  validación  cruzada  (cross-validation)  o  un  test  dataset  para  realizar  la evaluación del clasificardor? ¿Por qué?   
 En base a los resultados obternidos con un test data set obtenemos una mayor presicion pero con validación cruzada tenemos un valor similar de acuary sin importar el numero de  folds,  en  cambio  en  la  de  test  dataset  los  resultados  están  detrminados  por  el porcentaje de división entre training y test. Por lo que se considera mejor cross-validation
 #Conclusiones
 + A partir de los resultados se pudo comprobar que para nuestro modelo se ajusta de mejor manera el modelo probabilista de  árbol de decisiones y la forma de testeo por validación cruzada.  
