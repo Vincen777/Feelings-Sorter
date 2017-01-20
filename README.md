@@ -29,11 +29,20 @@ El código para obtener el archivo ARFF se encuentra en transformacionAtributos.
 #Discusión de Pruebas
 
 #Conclusiones
++ A partir de los resultados se pudo comprobar que para nuestro modelo se ajusta de mejor manera el modelo probabilista de  árbol de decisiones y la forma de testeo por validación cruzada.  
+
++La mejor forma de obtener el mejor modelo probabilista y la mejor forma de prueba es de forma experimental, además a partir de los resultados podemos sacar información para optimizar nuestro modelo. 
+
++La clasificación de sentimientos es un campo muy desarrollado en los últimos años lo que ha permitido que se creen librerias como texyBlob que facilitan los procesos de manera sustancial, pero lo malo es que el desarrollo esta centrado en textos en ingles por lo que el tratamiento de textos en español es todavía muy complicado.
 
 # Instrucciones de Instalación 
 1.- Descargar el archivo datosAleatorios.txt de la carpeta DatosFS
+
 2.-Descargar transformacionAtributos.py
+
 3.-Cambiar la ruta del archivo datos datosAleatorios.txt en el archivo transformacionAtributos.py
+
 4.-Cambiar la ruta donde queremos que se guarde el archivo ARFF generado en  transformacionAtributos.py
+
 5.-Ejecutar  transformacionAtributos.py (Es necesario tener Python)
 6.-Ejecutamos weca para probar los datos.
