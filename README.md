@@ -31,14 +31,17 @@ En la carpeta de Resultados se encuentran las capturas de cada uno de estos valo
 
 #### Modelo probabilístico
 Tabla de valores con los diferentes modelos estudiados.
+
 ![plot of chunk unnamed-chunk-2](Resultados/DatosCompletosVsReducido/Completos_reducidos.png) 
 
 #### Atributo Ordinal vs Atributo Continuo 
 Tabla comparativa del rendimiento del modelo con atributo nominal y con atributo continuo con KDD como modelo probabilístico.
+
 ![plot of chunk unnamed-chunk-2](Resultados/ContinuoVsNominal/Continuo_Ordinal.png)
 
 #### Efecto de la reducción de datos Netros para las pruebas
 Tabla que refleja el efecto de la disminución de datos neutros del 60% al 40$, con KDD como modelo probabilístico.
+
 ![plot of chunk unnamed-chunk-2](Resultados/DatosCompletosVsReducido/Completos_reducidos.png)
 
 # Discusión de Pruebas
