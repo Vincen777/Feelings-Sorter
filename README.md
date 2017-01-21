@@ -32,7 +32,7 @@ En la carpeta de Resultados se encuentran las capturas de cada uno de estos valo
 #### Modelo probabilístico
 Tabla de valores con los diferentes modelos estudiados.
 
-![plot of chunk unnamed-chunk-2](Resultados/DatosCompletosVsReducido/Completos_reducidos.png) 
+![plot of chunk unnamed-chunk-1](Resultados/DatosCompletosVsReducido/Completos_reducidos.png) 
 
 #### Atributo Ordinal vs Atributo Continuo 
 Tabla comparativa del rendimiento del modelo con atributo nominal y con atributo continuo con KDD como modelo probabilístico.
@@ -42,7 +42,7 @@ Tabla comparativa del rendimiento del modelo con atributo nominal y con atributo
 #### Efecto de la reducción de datos Netros para las pruebas
 Tabla que refleja el efecto de la disminución de datos neutros del 60% al 40$, con KDD como modelo probabilístico.
 
-![plot of chunk unnamed-chunk-2](Resultados/DatosCompletosVsReducido/Completos_reducidos.png)
+![plot of chunk unnamed-chunk-3](Resultados/DatosCompletosVsReducido/Completos_reducidos.png)
 
 # Discusión de Pruebas
 En las pruebas se observo que el modelo de árbol de decisiones brindaba mejores resultados a partir que se transformo de nominal a ordinal el atributo referente al objetivo y que además se denota claramente que la mayoría de aciertos se presentan para las clases neutras, lo que hace pensar que las clases neutras se están ajustando a un único conjunto de valores de los atributos, lo que daría a pensar que si se tiene un cierto grado de sobre ajuste dado que en la matriz de confusión se ve que se evidencian valores de falsos positivos y falsos negativos mas considerables para los valores positivos y negativos. 
