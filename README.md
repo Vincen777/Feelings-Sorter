@@ -75,4 +75,4 @@ En base a los resultados obternidos con un test data set obtenemos una mayor pre
 
 5.-Ejecutar  transformacionAtributos.py (Es necesario tener Python)
 
-6.-Ejecutamos weca para probar los datos.
+6.-Ejecutamos weka para probar los datos.
