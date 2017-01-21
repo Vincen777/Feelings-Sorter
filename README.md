@@ -32,7 +32,7 @@ En la carpeta de Resultados se encuentran las capturas de cada uno de estos valo
 #### Modelo probabilístico
 Tabla de valores con los diferentes modelos estudiados.
 
-![plot of chunk unnamed-chunk-1](Resultados/DatosCompletosVsReducido/Completos_reducidos.png) 
+![plot of chunk unnamed-chunk-1](Resultados/ModeloProbabilidad/Arboles_Bayes_KDD.png) 
 
 #### Atributo Ordinal vs Atributo Continuo 
 Tabla comparativa del rendimiento del modelo con atributo nominal y con atributo continuo con KDD como modelo probabilístico.
